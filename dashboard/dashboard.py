@@ -10,7 +10,7 @@ st.set_page_config(page_title="Dashboard: Air Quality from Stations in China",
                    layout="wide")
 
 # Load dataset
-data = pd.read_csv('main.csv')
+data = pd.read_csv('dashboard/main.csv')
 
 # Title of the dashboard
 st.title('\U0001F32B Dashboard: Air Quality from Stations in China')
